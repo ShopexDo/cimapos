@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/data/api/api_checker.dart';
-import 'package:six_pos/data/model/response/invoice_model.dart';
-import 'package:six_pos/data/model/response/bill_model.dart';
-import 'package:six_pos/data/model/response/quote_model.dart';
-import 'package:six_pos/data/repository/quote_repo.dart';
+import 'package:cimapos/data/api/api_checker.dart';
+import 'package:cimapos/data/model/response/invoice_model.dart';
+import 'package:cimapos/data/model/response/bill_model.dart';
+import 'package:cimapos/data/model/response/quote_model.dart';
+import 'package:cimapos/data/repository/quote_repo.dart';
 
 class QuoteController extends GetxController implements GetxService{
   final QuoteRepo quoteRepo;

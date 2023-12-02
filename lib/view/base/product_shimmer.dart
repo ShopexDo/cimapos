@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:six_pos/util/color_resources.dart';
-import 'package:six_pos/util/dimensions.dart';
+import 'package:cimapos/util/color_resources.dart';
+import 'package:cimapos/util/dimensions.dart';
 
 
 class ProductShimmer extends StatelessWidget {

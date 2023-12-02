@@ -1,12 +1,12 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/brand_controller.dart';
-import 'package:six_pos/controller/category_controller.dart';
-import 'package:six_pos/data/model/response/brand_model.dart';
-import 'package:six_pos/view/base/brand_shimmer.dart';
-import 'package:six_pos/view/base/no_data_screen.dart';
-import 'package:six_pos/view/screens/brand/widget/brand_card_widget.dart';
+import 'package:cimapos/controller/brand_controller.dart';
+import 'package:cimapos/controller/category_controller.dart';
+import 'package:cimapos/data/model/response/brand_model.dart';
+import 'package:cimapos/view/base/brand_shimmer.dart';
+import 'package:cimapos/view/base/no_data_screen.dart';
+import 'package:cimapos/view/screens/brand/widget/brand_card_widget.dart';
 
 class BrandListView extends StatelessWidget {
   final ScrollController scrollController;

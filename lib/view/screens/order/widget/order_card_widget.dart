@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/data/model/response/order_model.dart';
-import 'package:six_pos/helper/date_converter.dart';
-import 'package:six_pos/helper/price_converter.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/base/custom_button.dart';
-import 'package:six_pos/view/screens/order/invoice_screen.dart';
-import 'package:six_pos/view/screens/user/widget/custom_divider.dart';
+import 'package:cimapos/data/model/response/order_model.dart';
+import 'package:cimapos/helper/date_converter.dart';
+import 'package:cimapos/helper/price_converter.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/base/custom_button.dart';
+import 'package:cimapos/view/screens/order/invoice_screen.dart';
+import 'package:cimapos/view/screens/user/widget/custom_divider.dart';
 class OrderCardWidget extends StatelessWidget {
   final Orders order;
   const OrderCardWidget({Key key, this.order}) : super(key: key);

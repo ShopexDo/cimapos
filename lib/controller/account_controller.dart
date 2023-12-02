@@ -1,11 +1,11 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/data/api/api_checker.dart';
-import 'package:six_pos/data/model/response/account_model.dart';
-import 'package:six_pos/data/model/response/earning_statistics_model.dart';
-import 'package:six_pos/data/repository/account_repo.dart';
-import 'package:six_pos/view/base/custom_snackbar.dart';
+import 'package:cimapos/data/api/api_checker.dart';
+import 'package:cimapos/data/model/response/account_model.dart';
+import 'package:cimapos/data/model/response/earning_statistics_model.dart';
+import 'package:cimapos/data/repository/account_repo.dart';
+import 'package:cimapos/view/base/custom_snackbar.dart';
 
 class AccountController extends GetxController implements GetxService{
   final AccountRepo accountRepo;

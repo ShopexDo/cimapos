@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/data/model/response/quote_model.dart';
-import 'package:six_pos/helper/date_converter.dart';
-import 'package:six_pos/helper/price_converter.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/base/custom_button.dart';
-import 'package:six_pos/view/screens/order/bill_screen.dart';
-import 'package:six_pos/view/screens/user/widget/custom_divider.dart';
-import 'package:six_pos/view/base/animated_custom_dialog.dart';
-import 'package:six_pos/view/screens/quote/widget/confirm_bill_dialog.dart';
-import 'package:six_pos/controller/quote_controller.dart';
-import 'package:six_pos/view/screens/order/invoice_screen.dart';
-import 'package:six_pos/view/screens/quote/pos_screen.dart';
+import 'package:cimapos/data/model/response/quote_model.dart';
+import 'package:cimapos/helper/date_converter.dart';
+import 'package:cimapos/helper/price_converter.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/base/custom_button.dart';
+import 'package:cimapos/view/screens/order/bill_screen.dart';
+import 'package:cimapos/view/screens/user/widget/custom_divider.dart';
+import 'package:cimapos/view/base/animated_custom_dialog.dart';
+import 'package:cimapos/view/screens/quote/widget/confirm_bill_dialog.dart';
+import 'package:cimapos/controller/quote_controller.dart';
+import 'package:cimapos/view/screens/order/invoice_screen.dart';
+import 'package:cimapos/view/screens/quote/pos_screen.dart';
 
 class QuoteCardWidget extends StatelessWidget {
   final Quotes quote;

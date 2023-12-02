@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/view/base/custom_app_bar.dart';
-import 'package:six_pos/view/base/custom_drawer.dart';
-import 'package:six_pos/view/base/custom_header.dart';
-import 'package:six_pos/view/screens/category/widget/add_new_category.dart';
-import 'package:six_pos/view/screens/category/widget/category_list_view.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/view/base/custom_app_bar.dart';
+import 'package:cimapos/view/base/custom_drawer.dart';
+import 'package:cimapos/view/base/custom_header.dart';
+import 'package:cimapos/view/screens/category/widget/add_new_category.dart';
+import 'package:cimapos/view/screens/category/widget/category_list_view.dart';
 class CategoryListViewScreen extends StatefulWidget {
   const CategoryListViewScreen({Key key}) : super(key: key);
 

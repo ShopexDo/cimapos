@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:six_pos/util/color_resources.dart';
+import 'package:cimapos/util/color_resources.dart';
 
 class GradientColorHelper{
   static LinearGradient gradientColor({double opacity}) {

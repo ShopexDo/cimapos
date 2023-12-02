@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/data/api/api_checker.dart';
-import 'package:six_pos/data/model/response/customer_model.dart';
-import 'package:six_pos/data/model/response/product_model.dart';
-import 'package:six_pos/data/repository/pos_repo.dart';
+import 'package:cimapos/data/api/api_checker.dart';
+import 'package:cimapos/data/model/response/customer_model.dart';
+import 'package:cimapos/data/model/response/product_model.dart';
+import 'package:cimapos/data/repository/pos_repo.dart';
 
 class PosController extends GetxController implements GetxService{
   final PosRepo posRepo;

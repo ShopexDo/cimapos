@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:six_pos/util/app_constants.dart';
-import 'package:six_pos/view/screens/dashboard/nav_bar_screen.dart';
+import 'package:cimapos/util/app_constants.dart';
+import 'package:cimapos/view/screens/dashboard/nav_bar_screen.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/splash_controller.dart';
+import 'package:cimapos/controller/splash_controller.dart';
 import 'dart:async';
 
 class ApiSelectionScreen extends StatelessWidget {

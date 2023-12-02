@@ -6,18 +6,18 @@ import 'package:esc_pos_utils/esc_pos_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_pos_printer_platform/flutter_pos_printer_platform.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/data/model/response/config_model.dart';
-import 'package:six_pos/data/model/response/bill_model.dart';
-import 'package:six_pos/helper/date_converter.dart';
-import 'package:six_pos/view/base/custom_app_bar.dart';
-import 'package:six_pos/view/base/custom_drawer.dart';
+import 'package:cimapos/data/model/response/config_model.dart';
+import 'package:cimapos/data/model/response/bill_model.dart';
+import 'package:cimapos/helper/date_converter.dart';
+import 'package:cimapos/view/base/custom_app_bar.dart';
+import 'package:cimapos/view/base/custom_drawer.dart';
 import 'package:printing/printing.dart';
 import 'dart:typed_data';
 import 'package:path_provider/path_provider.dart';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
 import 'package:http/http.dart' as http;
-import 'package:six_pos/util/app_constants.dart';
+import 'package:cimapos/util/app_constants.dart';
 
 class PDFBillGenerator {
   static Future<void> generatePDF({

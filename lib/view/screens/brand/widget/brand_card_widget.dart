@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/brand_controller.dart';
-import 'package:six_pos/controller/splash_controller.dart';
-import 'package:six_pos/data/model/response/brand_model.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/base/animated_custom_dialog.dart';
-import 'package:six_pos/view/base/logout_dialog.dart';
-import 'package:six_pos/view/screens/brand/widget/add_new_brand_screen.dart';
+import 'package:cimapos/controller/brand_controller.dart';
+import 'package:cimapos/controller/splash_controller.dart';
+import 'package:cimapos/data/model/response/brand_model.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/base/animated_custom_dialog.dart';
+import 'package:cimapos/view/base/logout_dialog.dart';
+import 'package:cimapos/view/screens/brand/widget/add_new_brand_screen.dart';
 class BrandCardWidget extends StatelessWidget {
   final Brands brand;
   const BrandCardWidget({Key key, this.brand}) : super(key: key);

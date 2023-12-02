@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/category_controller.dart';
-import 'package:six_pos/data/model/response/category_model.dart';
-import 'package:six_pos/util/color_resources.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/base/custom_header.dart';
-import 'package:six_pos/view/base/custom_search_field.dart';
-import 'package:six_pos/view/base/no_data_screen.dart';
-import 'package:six_pos/view/base/product_shimmer.dart';
-import 'package:six_pos/view/screens/product/widget/category_item_card_widget.dart';
-import 'package:six_pos/view/screens/product/widget/item_card_widget.dart';
-import 'package:six_pos/view/screens/product/widget/product_search_dialog.dart';
+import 'package:cimapos/controller/category_controller.dart';
+import 'package:cimapos/data/model/response/category_model.dart';
+import 'package:cimapos/util/color_resources.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/base/custom_header.dart';
+import 'package:cimapos/view/base/custom_search_field.dart';
+import 'package:cimapos/view/base/no_data_screen.dart';
+import 'package:cimapos/view/base/product_shimmer.dart';
+import 'package:cimapos/view/screens/product/widget/category_item_card_widget.dart';
+import 'package:cimapos/view/screens/product/widget/item_card_widget.dart';
+import 'package:cimapos/view/screens/product/widget/product_search_dialog.dart';
 
 class ItemsScreen extends StatefulWidget {
   @override

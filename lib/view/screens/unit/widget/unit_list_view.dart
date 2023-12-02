@@ -1,11 +1,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/unit_controller.dart';
-import 'package:six_pos/data/model/response/unit_model.dart';
-import 'package:six_pos/view/base/no_data_screen.dart';
-import 'package:six_pos/view/base/unit_shimmer.dart';
-import 'package:six_pos/view/screens/unit/widget/unit_card_widget.dart';
+import 'package:cimapos/controller/unit_controller.dart';
+import 'package:cimapos/data/model/response/unit_model.dart';
+import 'package:cimapos/view/base/no_data_screen.dart';
+import 'package:cimapos/view/base/unit_shimmer.dart';
+import 'package:cimapos/view/screens/unit/widget/unit_card_widget.dart';
 
 class UnitListView extends StatelessWidget {
   final ScrollController scrollController;

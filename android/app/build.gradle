@@ -44,9 +44,9 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.u6amtech.six_pos"
+        applicationId "com.naranhosting.cimapos"
         minSdkVersion 21
-        targetSdkVersion 31
+        targetSdkVersion 33
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         multiDexEnabled true
@@ -62,10 +62,9 @@ android {
     }
 
     buildTypes {
-        release {
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig signingConfigs.debug
-        }
+       release {
+           signingConfig signingConfigs.release
+       }
     }
 }
 

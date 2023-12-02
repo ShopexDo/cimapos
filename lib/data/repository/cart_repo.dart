@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_connect/http/src/response/response.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:six_pos/data/api/api_client.dart';
-import 'package:six_pos/data/model/body/place_order_body.dart';
-import 'package:six_pos/data/model/body/place_bill_body.dart';
-import 'package:six_pos/data/model/body/place_quote_body.dart';
-import 'package:six_pos/util/app_constants.dart';
+import 'package:cimapos/data/api/api_client.dart';
+import 'package:cimapos/data/model/body/place_order_body.dart';
+import 'package:cimapos/data/model/body/place_bill_body.dart';
+import 'package:cimapos/data/model/body/place_quote_body.dart';
+import 'package:cimapos/util/app_constants.dart';
 
 class CartRepo{
   final ApiClient apiClient;

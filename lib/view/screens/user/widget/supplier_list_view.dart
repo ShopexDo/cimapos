@@ -1,12 +1,12 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/supplier_controller.dart';
-import 'package:six_pos/data/model/response/supplier_model.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/view/base/account_shimmer.dart';
-import 'package:six_pos/view/base/no_data_screen.dart';
-import 'package:six_pos/view/screens/user/widget/supplier_card_view_widget.dart';
+import 'package:cimapos/controller/supplier_controller.dart';
+import 'package:cimapos/data/model/response/supplier_model.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/view/base/account_shimmer.dart';
+import 'package:cimapos/view/base/no_data_screen.dart';
+import 'package:cimapos/view/screens/user/widget/supplier_card_view_widget.dart';
 
 class SupplierListView extends StatelessWidget {
   final ScrollController scrollController;

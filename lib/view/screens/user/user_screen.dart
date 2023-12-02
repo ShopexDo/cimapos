@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/view/base/custom_app_bar.dart';
-import 'package:six_pos/view/base/custom_category_button.dart';
-import 'package:six_pos/view/base/custom_drawer.dart';
-import 'package:six_pos/view/screens/user/supplier_or_customer_list.dart';
-import 'package:six_pos/view/screens/user/add_new_suppliers_and_customers.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/view/base/custom_app_bar.dart';
+import 'package:cimapos/view/base/custom_category_button.dart';
+import 'package:cimapos/view/base/custom_drawer.dart';
+import 'package:cimapos/view/screens/user/supplier_or_customer_list.dart';
+import 'package:cimapos/view/screens/user/add_new_suppliers_and_customers.dart';
 
 class UserScreen extends StatelessWidget {
   const UserScreen({Key key}) : super(key: key);

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/cart_controller.dart';
-import 'package:six_pos/controller/menu_controller.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/base/custom_ink_well.dart';
-import 'package:six_pos/view/screens/dashboard/nav_bar_screen.dart';
+import 'package:cimapos/controller/cart_controller.dart';
+import 'package:cimapos/controller/menu_controller.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/base/custom_ink_well.dart';
+import 'package:cimapos/view/screens/dashboard/nav_bar_screen.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final bool isBackButtonExist;

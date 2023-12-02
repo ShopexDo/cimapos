@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/data/api/api_checker.dart';
-import 'package:six_pos/data/model/response/product_model.dart';
-import 'package:six_pos/data/model/response/unit_model.dart';
-import 'package:six_pos/data/repository/unit_repo.dart';
-import 'package:six_pos/view/base/custom_snackbar.dart';
+import 'package:cimapos/data/api/api_checker.dart';
+import 'package:cimapos/data/model/response/product_model.dart';
+import 'package:cimapos/data/model/response/unit_model.dart';
+import 'package:cimapos/data/repository/unit_repo.dart';
+import 'package:cimapos/view/base/custom_snackbar.dart';
 
 class UnitController extends GetxController implements GetxService{
   final UnitRepo unitRepo;

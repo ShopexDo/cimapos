@@ -2,10 +2,10 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:six_pos/data/model/response/profile_model.dart';
-import 'package:six_pos/data/model/response/response_model.dart';
-import 'package:six_pos/data/repository/auth_repo.dart';
-import 'package:six_pos/view/base/custom_snackbar.dart';
+import 'package:cimapos/data/model/response/profile_model.dart';
+import 'package:cimapos/data/model/response/response_model.dart';
+import 'package:cimapos/data/repository/auth_repo.dart';
+import 'package:cimapos/view/base/custom_snackbar.dart';
 
 
 class AuthController extends GetxController implements GetxService {

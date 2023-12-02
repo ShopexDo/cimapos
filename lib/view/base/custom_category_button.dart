@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:six_pos/helper/gradient_color_helper.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/styles.dart';
+import 'package:cimapos/helper/gradient_color_helper.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/styles.dart';
 
 class CustomCategoryButton extends StatelessWidget {
   final String icon;

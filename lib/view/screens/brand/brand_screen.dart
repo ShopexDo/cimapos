@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/brand_controller.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/view/base/custom_app_bar.dart';
-import 'package:six_pos/view/base/custom_drawer.dart';
-import 'package:six_pos/view/base/custom_header.dart';
-import 'package:six_pos/view/screens/brand/widget/add_new_brand_screen.dart';
-import 'package:six_pos/view/screens/brand/widget/brand_list_view.dart';
+import 'package:cimapos/controller/brand_controller.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/view/base/custom_app_bar.dart';
+import 'package:cimapos/view/base/custom_drawer.dart';
+import 'package:cimapos/view/base/custom_header.dart';
+import 'package:cimapos/view/screens/brand/widget/add_new_brand_screen.dart';
+import 'package:cimapos/view/screens/brand/widget/brand_list_view.dart';
 class BrandListViewScreen extends StatefulWidget {
   const BrandListViewScreen({Key key}) : super(key: key);
 

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/unit_controller.dart';
-import 'package:six_pos/data/model/response/unit_model.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/base/animated_custom_dialog.dart';
-import 'package:six_pos/view/base/logout_dialog.dart';
-import 'package:six_pos/view/screens/unit/widget/add_new_unit_screen.dart';
+import 'package:cimapos/controller/unit_controller.dart';
+import 'package:cimapos/data/model/response/unit_model.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/base/animated_custom_dialog.dart';
+import 'package:cimapos/view/base/logout_dialog.dart';
+import 'package:cimapos/view/screens/unit/widget/add_new_unit_screen.dart';
 class UnitCardWidget extends StatelessWidget {
   final Units unit;
   const UnitCardWidget({Key key, this.unit}) : super(key: key);

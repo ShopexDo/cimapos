@@ -61,4 +61,6 @@ class Images {
   static const String my_account = 'assets/image/my_account.png';
   static const String product = 'assets/image/product.png';
   static const String logout  = 'assets/image/logout.png';
+  static const String info  = 'assets/image/info.png';
+  static const String look  = 'assets/image/look.png';
 }

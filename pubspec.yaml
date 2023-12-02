@@ -1,7 +1,7 @@
-name: six_pos
+name: cimapos
 description: A new Flutter application.
 publish_to: 'none' #
-version: 1.0.4+4
+version: 1.0.3+3
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

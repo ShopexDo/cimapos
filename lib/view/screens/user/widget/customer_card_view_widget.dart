@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/customer_controller.dart';
-import 'package:six_pos/data/model/response/customer_model.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/base/animated_custom_dialog.dart';
-import 'package:six_pos/view/base/custom_image.dart';
-import 'package:six_pos/view/base/custom_ink_well.dart';
-import 'package:six_pos/view/base/logout_dialog.dart';
-import 'package:six_pos/view/screens/account_management/transaction_list_screen.dart';
-import 'package:six_pos/view/screens/order/order_screen.dart';
-import 'package:six_pos/view/screens/user/add_new_suppliers_and_customers.dart';
-import 'package:six_pos/view/screens/user/widget/add_balance_dialog.dart';
-import 'package:six_pos/view/screens/user/widget/custom_divider.dart';
+import 'package:cimapos/controller/customer_controller.dart';
+import 'package:cimapos/data/model/response/customer_model.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/base/animated_custom_dialog.dart';
+import 'package:cimapos/view/base/custom_image.dart';
+import 'package:cimapos/view/base/custom_ink_well.dart';
+import 'package:cimapos/view/base/logout_dialog.dart';
+import 'package:cimapos/view/screens/account_management/transaction_list_screen.dart';
+import 'package:cimapos/view/screens/order/order_screen.dart';
+import 'package:cimapos/view/screens/user/add_new_suppliers_and_customers.dart';
+import 'package:cimapos/view/screens/user/widget/add_balance_dialog.dart';
+import 'package:cimapos/view/screens/user/widget/custom_divider.dart';
 
 class CustomerCardViewWidget extends StatelessWidget {
   final Customers customer;

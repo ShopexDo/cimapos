@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:six_pos/util/images.dart';
+import 'package:cimapos/util/images.dart';
 
 class CustomImage extends StatelessWidget {
   final String image;

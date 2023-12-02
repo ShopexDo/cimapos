@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/localization_controller.dart';
-import 'package:six_pos/data/model/response/language_model.dart';
-import 'package:six_pos/util/app_constants.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/base/custom_ink_well.dart';
+import 'package:cimapos/controller/localization_controller.dart';
+import 'package:cimapos/data/model/response/language_model.dart';
+import 'package:cimapos/util/app_constants.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/base/custom_ink_well.dart';
 
 class LanguageWidget extends StatelessWidget {
   final LanguageModel languageModel;

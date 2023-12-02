@@ -1,22 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/account_controller.dart';
-import 'package:six_pos/controller/cart_controller.dart';
-import 'package:six_pos/controller/category_controller.dart';
-import 'package:six_pos/controller/customer_controller.dart';
-import 'package:six_pos/controller/menu_controller.dart';
-import 'package:six_pos/controller/product_controller.dart';
-import 'package:six_pos/controller/splash_controller.dart';
-import 'package:six_pos/controller/transaction_controller.dart';
-import 'package:six_pos/util/color_resources.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/view/base/animated_custom_dialog.dart';
-import 'package:six_pos/view/base/custom_app_bar.dart';
-import 'package:six_pos/view/base/custom_drawer.dart';
-import 'package:six_pos/view/base/logout_dialog.dart';
-import 'package:six_pos/view/screens/dashboard/widget/gradient_border.dart';
+import 'package:cimapos/controller/account_controller.dart';
+import 'package:cimapos/controller/cart_controller.dart';
+import 'package:cimapos/controller/category_controller.dart';
+import 'package:cimapos/controller/customer_controller.dart';
+import 'package:cimapos/controller/menu_controller.dart';
+import 'package:cimapos/controller/product_controller.dart';
+import 'package:cimapos/controller/splash_controller.dart';
+import 'package:cimapos/controller/transaction_controller.dart';
+import 'package:cimapos/util/color_resources.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/view/base/animated_custom_dialog.dart';
+import 'package:cimapos/view/base/custom_app_bar.dart';
+import 'package:cimapos/view/base/custom_drawer.dart';
+import 'package:cimapos/view/base/logout_dialog.dart';
+import 'package:cimapos/view/screens/dashboard/widget/gradient_border.dart';
 
 
 class NavBarScreen extends StatefulWidget {

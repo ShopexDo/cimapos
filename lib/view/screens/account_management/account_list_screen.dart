@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/account_controller.dart';
-import 'package:six_pos/controller/expense_controller.dart';
-import 'package:six_pos/controller/income_controller.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/base/custom_app_bar.dart';
-import 'package:six_pos/view/base/custom_date_picker.dart';
-import 'package:six_pos/view/base/custom_drawer.dart';
-import 'package:six_pos/view/base/custom_header.dart';
-import 'package:six_pos/view/base/secondary_header_view.dart';
-import 'package:six_pos/view/screens/account_management/widget/account_list_view.dart';
-import 'package:six_pos/view/base/custom_search_field.dart';
-import 'package:six_pos/view/screens/account_management/widget/expense_list_view.dart';
-import 'package:six_pos/view/screens/account_management/widget/income_list_view.dart';
+import 'package:cimapos/controller/account_controller.dart';
+import 'package:cimapos/controller/expense_controller.dart';
+import 'package:cimapos/controller/income_controller.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/base/custom_app_bar.dart';
+import 'package:cimapos/view/base/custom_date_picker.dart';
+import 'package:cimapos/view/base/custom_drawer.dart';
+import 'package:cimapos/view/base/custom_header.dart';
+import 'package:cimapos/view/base/secondary_header_view.dart';
+import 'package:cimapos/view/screens/account_management/widget/account_list_view.dart';
+import 'package:cimapos/view/base/custom_search_field.dart';
+import 'package:cimapos/view/screens/account_management/widget/expense_list_view.dart';
+import 'package:cimapos/view/screens/account_management/widget/income_list_view.dart';
 
 class AccountListScreen extends StatefulWidget {
   final bool fromAccount;

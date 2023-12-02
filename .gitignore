@@ -19,7 +19,8 @@
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
 #.vscode/
-
+#keytool -genkey -v -keystore key/upload-keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias cimapos
+#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
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id

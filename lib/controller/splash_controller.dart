@@ -1,16 +1,16 @@
 import 'dart:convert';
 import 'package:image_picker/image_picker.dart';
-import 'package:six_pos/controller/auth_controller.dart';
-import 'package:six_pos/data/api/api_checker.dart';
-import 'package:six_pos/data/model/response/config_model.dart';
-import 'package:six_pos/data/model/response/profile_model.dart';
-import 'package:six_pos/data/model/response/revenue_model.dart';
-import 'package:six_pos/data/repository/splash_repo.dart';
+import 'package:cimapos/controller/auth_controller.dart';
+import 'package:cimapos/data/api/api_checker.dart';
+import 'package:cimapos/data/model/response/config_model.dart';
+import 'package:cimapos/data/model/response/profile_model.dart';
+import 'package:cimapos/data/model/response/revenue_model.dart';
+import 'package:cimapos/data/repository/splash_repo.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
-import 'package:six_pos/view/base/custom_snackbar.dart';
-import 'package:six_pos/util/app_constants.dart';
+import 'package:cimapos/view/base/custom_snackbar.dart';
+import 'package:cimapos/util/app_constants.dart';
 
 class SplashController extends GetxController implements GetxService {
   final SplashRepo splashRepo;

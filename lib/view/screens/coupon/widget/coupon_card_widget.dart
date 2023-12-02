@@ -1,15 +1,15 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/coupon_controller.dart';
-import 'package:six_pos/data/model/response/coupon_model.dart';
-import 'package:six_pos/util/color_resources.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/base/animated_custom_dialog.dart';
-import 'package:six_pos/view/base/logout_dialog.dart';
-import 'package:six_pos/view/screens/coupon/add_coupon_screen.dart';
+import 'package:cimapos/controller/coupon_controller.dart';
+import 'package:cimapos/data/model/response/coupon_model.dart';
+import 'package:cimapos/util/color_resources.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/base/animated_custom_dialog.dart';
+import 'package:cimapos/view/base/logout_dialog.dart';
+import 'package:cimapos/view/screens/coupon/add_coupon_screen.dart';
 
 class CouponCardWidget extends StatelessWidget{
   final int index;

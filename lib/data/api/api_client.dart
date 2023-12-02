@@ -3,8 +3,8 @@ import 'dart:io';
 import 'dart:typed_data';
 import 'package:http_parser/http_parser.dart';
 
-import 'package:six_pos/data/model/response/error_response.dart';
-import 'package:six_pos/util/app_constants.dart';
+import 'package:cimapos/data/model/response/error_response.dart';
+import 'package:cimapos/util/app_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';

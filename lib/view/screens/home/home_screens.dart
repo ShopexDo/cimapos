@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/account_controller.dart';
-import 'package:six_pos/controller/menu_controller.dart';
-import 'package:six_pos/controller/product_controller.dart';
-import 'package:six_pos/util/color_resources.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/base/custom_drawer.dart';
-import 'package:six_pos/view/base/title_row.dart';
-import 'package:six_pos/view/screens/account_management/account_list_screen.dart';
-import 'package:six_pos/view/screens/account_management/widget/account_list_view.dart';
-import 'package:six_pos/view/screens/home/widget/revenue_statistics.dart';
-import 'package:six_pos/view/screens/home/widget/transaction_chart.dart';
-import 'package:six_pos/view/screens/product/widget/limited_product_list_view.dart';
+import 'package:cimapos/controller/account_controller.dart';
+import 'package:cimapos/controller/menu_controller.dart';
+import 'package:cimapos/controller/product_controller.dart';
+import 'package:cimapos/util/color_resources.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/base/custom_drawer.dart';
+import 'package:cimapos/view/base/title_row.dart';
+import 'package:cimapos/view/screens/account_management/account_list_screen.dart';
+import 'package:cimapos/view/screens/account_management/widget/account_list_view.dart';
+import 'package:cimapos/view/screens/home/widget/revenue_statistics.dart';
+import 'package:cimapos/view/screens/home/widget/transaction_chart.dart';
+import 'package:cimapos/view/screens/product/widget/limited_product_list_view.dart';
 
 class HomeScreen extends StatefulWidget {
   @override

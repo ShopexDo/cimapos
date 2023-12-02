@@ -1,5 +1,5 @@
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:six_pos/util/dimensions.dart';
+import 'package:cimapos/util/dimensions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

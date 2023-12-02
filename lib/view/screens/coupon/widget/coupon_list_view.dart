@@ -1,10 +1,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/coupon_controller.dart';
-import 'package:six_pos/data/model/response/coupon_model.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/view/screens/coupon/widget/coupon_card_widget.dart';
+import 'package:cimapos/controller/coupon_controller.dart';
+import 'package:cimapos/data/model/response/coupon_model.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/view/screens/coupon/widget/coupon_card_widget.dart';
 
 
 class CouponListView extends StatelessWidget {

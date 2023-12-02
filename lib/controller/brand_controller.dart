@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:six_pos/controller/auth_controller.dart';
-import 'package:six_pos/data/api/api_checker.dart';
-import 'package:six_pos/data/model/response/brand_model.dart';
-import 'package:six_pos/data/model/response/product_model.dart';
-import 'package:six_pos/data/repository/brand_repo.dart';
-import 'package:six_pos/view/base/custom_snackbar.dart';
+import 'package:cimapos/controller/auth_controller.dart';
+import 'package:cimapos/data/api/api_checker.dart';
+import 'package:cimapos/data/model/response/brand_model.dart';
+import 'package:cimapos/data/model/response/product_model.dart';
+import 'package:cimapos/data/repository/brand_repo.dart';
+import 'package:cimapos/view/base/custom_snackbar.dart';
 import 'package:http/http.dart' as http;
 
 class BrandController extends GetxController implements GetxService{

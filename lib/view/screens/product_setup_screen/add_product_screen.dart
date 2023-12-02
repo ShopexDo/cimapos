@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/brand_controller.dart';
-import 'package:six_pos/controller/category_controller.dart';
-import 'package:six_pos/controller/product_controller.dart';
-import 'package:six_pos/controller/supplier_controller.dart';
-import 'package:six_pos/controller/unit_controller.dart';
-import 'package:six_pos/data/model/response/product_model.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/base/custom_app_bar.dart';
-import 'package:six_pos/view/base/custom_button.dart';
-import 'package:six_pos/view/base/custom_drawer.dart';
-import 'package:six_pos/view/base/custom_header.dart';
-import 'package:six_pos/view/base/custom_snackbar.dart';
-import 'package:six_pos/view/screens/product_setup_screen/widget/product_general_info.dart';
-import 'package:six_pos/view/screens/product_setup_screen/widget/product_price_info.dart';
+import 'package:cimapos/controller/brand_controller.dart';
+import 'package:cimapos/controller/category_controller.dart';
+import 'package:cimapos/controller/product_controller.dart';
+import 'package:cimapos/controller/supplier_controller.dart';
+import 'package:cimapos/controller/unit_controller.dart';
+import 'package:cimapos/data/model/response/product_model.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/base/custom_app_bar.dart';
+import 'package:cimapos/view/base/custom_button.dart';
+import 'package:cimapos/view/base/custom_drawer.dart';
+import 'package:cimapos/view/base/custom_header.dart';
+import 'package:cimapos/view/base/custom_snackbar.dart';
+import 'package:cimapos/view/screens/product_setup_screen/widget/product_general_info.dart';
+import 'package:cimapos/view/screens/product_setup_screen/widget/product_price_info.dart';
 
 class AddProductScreen extends StatefulWidget {
   final Products product;

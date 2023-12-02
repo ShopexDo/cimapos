@@ -1,10 +1,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/product_controller.dart';
-import 'package:six_pos/data/model/response/product_model.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/view/screens/product/widget/product_card_widget.dart';
+import 'package:cimapos/controller/product_controller.dart';
+import 'package:cimapos/data/model/response/product_model.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/view/screens/product/widget/product_card_widget.dart';
 
 
 class ProductListView extends StatelessWidget {

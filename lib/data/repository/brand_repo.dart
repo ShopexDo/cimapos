@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:six_pos/data/api/api_client.dart';
-import 'package:six_pos/util/app_constants.dart';
+import 'package:cimapos/data/api/api_client.dart';
+import 'package:cimapos/util/app_constants.dart';
 import 'dart:typed_data';
 import 'package:path/path.dart';
 import 'package:http/http.dart' as http;

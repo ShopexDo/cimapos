@@ -1,6 +1,6 @@
 
 import 'package:connectivity_plus/connectivity_plus.dart';
-import 'package:six_pos/controller/splash_controller.dart';
+import 'package:cimapos/controller/splash_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

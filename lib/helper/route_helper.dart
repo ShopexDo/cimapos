@@ -1,6 +1,6 @@
-import 'package:six_pos/view/screens/dashboard/nav_bar_screen.dart';
-import 'package:six_pos/view/screens/shop/shop_settings.dart';
-import 'package:six_pos/view/screens/splash/splash_screen.dart';
+import 'package:cimapos/view/screens/dashboard/nav_bar_screen.dart';
+import 'package:cimapos/view/screens/shop/shop_settings.dart';
+import 'package:cimapos/view/screens/splash/splash_screen.dart';
 import 'package:get/get.dart';
 
 class RouteHelper {

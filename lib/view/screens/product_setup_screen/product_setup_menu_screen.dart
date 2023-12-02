@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/view/base/custom_app_bar.dart';
-import 'package:six_pos/view/base/custom_category_button.dart';
-import 'package:six_pos/view/base/custom_drawer.dart';
-import 'package:six_pos/view/screens/brand/brand_screen.dart';
-import 'package:six_pos/view/screens/category/category_screen.dart';
-import 'package:six_pos/view/screens/coupon/coupon_screen.dart';
-import 'package:six_pos/view/screens/product_setup_screen/product_setup_screen.dart';
-import 'package:six_pos/view/screens/unit/unit_list_screen.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/view/base/custom_app_bar.dart';
+import 'package:cimapos/view/base/custom_category_button.dart';
+import 'package:cimapos/view/base/custom_drawer.dart';
+import 'package:cimapos/view/screens/brand/brand_screen.dart';
+import 'package:cimapos/view/screens/category/category_screen.dart';
+import 'package:cimapos/view/screens/coupon/coupon_screen.dart';
+import 'package:cimapos/view/screens/product_setup_screen/product_setup_screen.dart';
+import 'package:cimapos/view/screens/unit/unit_list_screen.dart';
 
 
 class ProductSetupMenuScreen extends StatelessWidget {

@@ -1,12 +1,12 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/account_controller.dart';
-import 'package:six_pos/data/model/response/account_model.dart';
+import 'package:cimapos/controller/account_controller.dart';
+import 'package:cimapos/data/model/response/account_model.dart';
 
-import 'package:six_pos/view/base/account_shimmer.dart';
-import 'package:six_pos/view/base/no_data_screen.dart';
-import 'package:six_pos/view/screens/account_management/widget/account_info_view.dart';
+import 'package:cimapos/view/base/account_shimmer.dart';
+import 'package:cimapos/view/base/no_data_screen.dart';
+import 'package:cimapos/view/screens/account_management/widget/account_info_view.dart';
 
 
 class AccountListView extends StatelessWidget {

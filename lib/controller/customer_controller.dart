@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:intl/intl.dart';
-import 'package:six_pos/controller/auth_controller.dart';
-import 'package:six_pos/data/api/api_checker.dart';
-import 'package:six_pos/data/model/response/customer_model.dart';
-import 'package:six_pos/data/model/response/order_model.dart';
-import 'package:six_pos/data/repository/customer_repo.dart';
-import 'package:six_pos/view/base/custom_snackbar.dart';
+import 'package:cimapos/controller/auth_controller.dart';
+import 'package:cimapos/data/api/api_checker.dart';
+import 'package:cimapos/data/model/response/customer_model.dart';
+import 'package:cimapos/data/model/response/order_model.dart';
+import 'package:cimapos/data/repository/customer_repo.dart';
+import 'package:cimapos/view/base/custom_snackbar.dart';
 import 'package:http/http.dart' as http;
 
 class CustomerController extends GetxController implements GetxService{

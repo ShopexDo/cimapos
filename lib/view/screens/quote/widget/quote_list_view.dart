@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/quote_controller.dart';
-import 'package:six_pos/data/model/response/quote_model.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/view/base/custom_loader.dart';
-import 'package:six_pos/view/base/no_data_screen.dart';
-import 'package:six_pos/view/screens/quote/widget/quote_card_widget.dart';
+import 'package:cimapos/controller/quote_controller.dart';
+import 'package:cimapos/data/model/response/quote_model.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/view/base/custom_loader.dart';
+import 'package:cimapos/view/base/no_data_screen.dart';
+import 'package:cimapos/view/screens/quote/widget/quote_card_widget.dart';
 
 
 class OrderListView extends StatelessWidget {

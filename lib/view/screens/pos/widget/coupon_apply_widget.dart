@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/cart_controller.dart';
-import 'package:six_pos/controller/customer_controller.dart';
-import 'package:six_pos/util/color_resources.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/base/custom_button.dart';
-import 'package:six_pos/view/base/custom_field_with_title.dart';
-import 'package:six_pos/view/base/custom_text_field.dart';
+import 'package:cimapos/controller/cart_controller.dart';
+import 'package:cimapos/controller/customer_controller.dart';
+import 'package:cimapos/util/color_resources.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/base/custom_button.dart';
+import 'package:cimapos/view/base/custom_field_with_title.dart';
+import 'package:cimapos/view/base/custom_text_field.dart';
 class CouponDialog extends StatelessWidget {
   const CouponDialog({Key key}) : super(key: key);
 

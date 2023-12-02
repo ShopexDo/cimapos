@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/data/api/api_checker.dart';
-import 'package:six_pos/data/model/response/invoice_model.dart';
-import 'package:six_pos/data/model/response/order_model.dart';
-import 'package:six_pos/data/repository/order_repo.dart';
+import 'package:cimapos/data/api/api_checker.dart';
+import 'package:cimapos/data/model/response/invoice_model.dart';
+import 'package:cimapos/data/model/response/order_model.dart';
+import 'package:cimapos/data/repository/order_repo.dart';
 
 class OrderController extends GetxController implements GetxService{
   final OrderRepo orderRepo;

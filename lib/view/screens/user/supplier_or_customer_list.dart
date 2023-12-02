@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/customer_controller.dart';
-import 'package:six_pos/controller/supplier_controller.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/view/base/custom_app_bar.dart';
-import 'package:six_pos/view/base/custom_drawer.dart';
-import 'package:six_pos/view/base/custom_header.dart';
-import 'package:six_pos/view/base/custom_search_field.dart';
-import 'package:six_pos/view/base/secondary_header_view.dart';
-import 'package:six_pos/view/screens/user/widget/customer_list_view.dart';
-import 'package:six_pos/view/screens/user/widget/supplier_list_view.dart';
+import 'package:cimapos/controller/customer_controller.dart';
+import 'package:cimapos/controller/supplier_controller.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/view/base/custom_app_bar.dart';
+import 'package:cimapos/view/base/custom_drawer.dart';
+import 'package:cimapos/view/base/custom_header.dart';
+import 'package:cimapos/view/base/custom_search_field.dart';
+import 'package:cimapos/view/base/secondary_header_view.dart';
+import 'package:cimapos/view/screens/user/widget/customer_list_view.dart';
+import 'package:cimapos/view/screens/user/widget/supplier_list_view.dart';
 
 class SupplierOrCustomerList extends StatefulWidget {
   final bool isCustomer;

@@ -397,6 +397,9 @@
     "no_internet_connection": "No hay conexión a internet",
     "sl": "N°",
     "apply": "Aplicar",
-    "bill": "Facturar"
+    "bill": "Facturar",
+    "info": "Información",
+    "terms_and_conditions": "Términos y Condiciones",
+    "privacy_policy": "Política de Privacidad"
   }
   

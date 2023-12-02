@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/supplier_controller.dart';
-import 'package:six_pos/data/model/response/supplier_model.dart';
-import 'package:six_pos/helper/price_converter.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/base/animated_custom_dialog.dart';
-import 'package:six_pos/view/base/custom_app_bar.dart';
-import 'package:six_pos/view/base/custom_date_picker.dart';
-import 'package:six_pos/view/base/custom_drawer.dart';
-import 'package:six_pos/view/base/custom_header.dart';
-import 'package:six_pos/view/base/secondary_header_view.dart';
-import 'package:six_pos/view/screens/user/widget/supplier_new_purchase_dialog.dart';
-import 'package:six_pos/view/screens/user/widget/supplier_transaction_list.dart';
+import 'package:cimapos/controller/supplier_controller.dart';
+import 'package:cimapos/data/model/response/supplier_model.dart';
+import 'package:cimapos/helper/price_converter.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/base/animated_custom_dialog.dart';
+import 'package:cimapos/view/base/custom_app_bar.dart';
+import 'package:cimapos/view/base/custom_date_picker.dart';
+import 'package:cimapos/view/base/custom_drawer.dart';
+import 'package:cimapos/view/base/custom_header.dart';
+import 'package:cimapos/view/base/secondary_header_view.dart';
+import 'package:cimapos/view/screens/user/widget/supplier_new_purchase_dialog.dart';
+import 'package:cimapos/view/screens/user/widget/supplier_transaction_list.dart';
 
 class SupplierTransactionListScreen extends StatefulWidget {
   final int supplierId;

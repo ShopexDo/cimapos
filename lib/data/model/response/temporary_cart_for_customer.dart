@@ -1,5 +1,5 @@
 
-import 'package:six_pos/data/model/response/cart_model.dart';
+import 'package:cimapos/data/model/response/cart_model.dart';
 
 class TemporaryCartListModel {
   List<CartModel> _cart;

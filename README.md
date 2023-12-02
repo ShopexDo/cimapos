@@ -1,4 +1,4 @@
-# six_pos
+# cimapos
 
 A new Flutter application.
 

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/util/color_resources.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/view/base/custom_button.dart';
-import 'package:six_pos/view/base/custom_text_field.dart';
-import 'package:six_pos/controller/cart_controller.dart';
+import 'package:cimapos/util/color_resources.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/view/base/custom_button.dart';
+import 'package:cimapos/view/base/custom_text_field.dart';
+import 'package:cimapos/controller/cart_controller.dart';
 
 class ConfirmBillDialog extends StatelessWidget {
   final Function onYesPressed;

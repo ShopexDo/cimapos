@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/account_controller.dart';
-import 'package:six_pos/data/model/response/account_model.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/base/animated_custom_dialog.dart';
-import 'package:six_pos/view/base/custom_divider.dart';
-import 'package:six_pos/view/base/custom_ink_well.dart';
-import 'package:six_pos/view/base/logout_dialog.dart';
-import 'package:six_pos/view/screens/account_management/add_account_screen.dart';
+import 'package:cimapos/controller/account_controller.dart';
+import 'package:cimapos/data/model/response/account_model.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/base/animated_custom_dialog.dart';
+import 'package:cimapos/view/base/custom_divider.dart';
+import 'package:cimapos/view/base/custom_ink_well.dart';
+import 'package:cimapos/view/base/logout_dialog.dart';
+import 'package:cimapos/view/screens/account_management/add_account_screen.dart';
 
 class AccountCardViewWidget extends StatelessWidget {
   final bool isHome;

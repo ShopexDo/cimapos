@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/util/dimensions.dart';
+import 'package:cimapos/util/dimensions.dart';
 
 
 class CustomLoader extends StatelessWidget {

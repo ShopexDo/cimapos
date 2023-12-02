@@ -1,4 +1,4 @@
-import 'package:six_pos/data/model/response/categoriesProductModel.dart';
+import 'package:cimapos/data/model/response/categoriesProductModel.dart';
 class CartModel {
   double _price;
   double _discountAmount;

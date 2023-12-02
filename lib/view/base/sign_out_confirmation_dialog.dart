@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/auth_controller.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/screens/splash/splash_screen.dart';
+import 'package:cimapos/controller/auth_controller.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/screens/splash/splash_screen.dart';
 
 class SignOutConfirmationDialog extends StatelessWidget {
   @override

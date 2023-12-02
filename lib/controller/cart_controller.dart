@@ -1,24 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/order_controller.dart';
-import 'package:six_pos/controller/quote_controller.dart';
-import 'package:six_pos/controller/transaction_controller.dart';
-import 'package:six_pos/data/api/api_checker.dart';
-import 'package:six_pos/data/model/body/place_order_body.dart';
-import 'package:six_pos/data/model/body/place_bill_body.dart';
-import 'package:six_pos/data/model/body/place_quote_body.dart';
-import 'package:six_pos/data/model/response/cart_model.dart';
-import 'package:six_pos/data/model/response/categoriesProductModel.dart';
-import 'package:six_pos/data/model/response/coupon_model.dart';
-import 'package:six_pos/data/model/response/customer_model.dart';
-import 'package:six_pos/data/model/response/temporary_cart_for_customer.dart';
-import 'package:six_pos/data/repository/cart_repo.dart';
-import 'package:six_pos/view/base/custom_snackbar.dart';
+import 'package:cimapos/controller/order_controller.dart';
+import 'package:cimapos/controller/quote_controller.dart';
+import 'package:cimapos/controller/transaction_controller.dart';
+import 'package:cimapos/data/api/api_checker.dart';
+import 'package:cimapos/data/model/body/place_order_body.dart';
+import 'package:cimapos/data/model/body/place_bill_body.dart';
+import 'package:cimapos/data/model/body/place_quote_body.dart';
+import 'package:cimapos/data/model/response/cart_model.dart';
+import 'package:cimapos/data/model/response/categoriesProductModel.dart';
+import 'package:cimapos/data/model/response/coupon_model.dart';
+import 'package:cimapos/data/model/response/customer_model.dart';
+import 'package:cimapos/data/model/response/temporary_cart_for_customer.dart';
+import 'package:cimapos/data/repository/cart_repo.dart';
+import 'package:cimapos/view/base/custom_snackbar.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
-import 'package:six_pos/view/screens/order/invoice_screen.dart';
-import 'package:six_pos/view/screens/order/bill_screen.dart';
+import 'package:cimapos/view/screens/order/invoice_screen.dart';
+import 'package:cimapos/view/screens/order/bill_screen.dart';
 
 
 class CartController extends GetxController implements GetxService{

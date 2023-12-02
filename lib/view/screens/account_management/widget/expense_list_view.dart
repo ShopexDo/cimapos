@@ -1,11 +1,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/expense_controller.dart';
-import 'package:six_pos/data/model/response/expenseModel.dart';
-import 'package:six_pos/view/base/account_shimmer.dart';
-import 'package:six_pos/view/base/no_data_screen.dart';
-import 'package:six_pos/view/screens/account_management/widget/expense_info_view.dart';
+import 'package:cimapos/controller/expense_controller.dart';
+import 'package:cimapos/data/model/response/expenseModel.dart';
+import 'package:cimapos/view/base/account_shimmer.dart';
+import 'package:cimapos/view/base/no_data_screen.dart';
+import 'package:cimapos/view/screens/account_management/widget/expense_info_view.dart';
 
 
 

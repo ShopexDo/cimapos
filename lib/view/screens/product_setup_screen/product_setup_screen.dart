@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/view/base/custom_app_bar.dart';
-import 'package:six_pos/view/base/custom_category_button.dart';
-import 'package:six_pos/view/base/custom_drawer.dart';
-import 'package:six_pos/view/screens/product/product_view_screen.dart';
-import 'package:six_pos/view/screens/product_setup_screen/add_product_screen.dart';
-import 'package:six_pos/view/screens/product_setup_screen/product_bulk_export.dart';
-import 'package:six_pos/view/screens/product_setup_screen/product_bulk_import.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/view/base/custom_app_bar.dart';
+import 'package:cimapos/view/base/custom_category_button.dart';
+import 'package:cimapos/view/base/custom_drawer.dart';
+import 'package:cimapos/view/screens/product/product_view_screen.dart';
+import 'package:cimapos/view/screens/product_setup_screen/add_product_screen.dart';
+import 'package:cimapos/view/screens/product_setup_screen/product_bulk_export.dart';
+import 'package:cimapos/view/screens/product_setup_screen/product_bulk_import.dart';
 
 
 class ProductSetupScreen extends StatelessWidget {

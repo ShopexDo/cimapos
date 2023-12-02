@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/product_controller.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/view/base/custom_header.dart';
-import 'package:six_pos/view/base/secondary_header_view.dart';
-import 'package:six_pos/view/screens/product/widget/limited_product_list_view.dart';
+import 'package:cimapos/controller/product_controller.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/view/base/custom_header.dart';
+import 'package:cimapos/view/base/secondary_header_view.dart';
+import 'package:cimapos/view/screens/product/widget/limited_product_list_view.dart';
 
 
 class LimitedStockProductScreen extends StatefulWidget {

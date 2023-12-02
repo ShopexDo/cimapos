@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:six_pos/controller/auth_controller.dart';
-import 'package:six_pos/data/api/api_checker.dart';
-import 'package:six_pos/data/model/response/categoriesProductModel.dart';
-import 'package:six_pos/data/model/response/category_model.dart';
-import 'package:six_pos/data/model/response/product_model.dart';
-import 'package:six_pos/data/model/response/sub_category_model.dart';
-import 'package:six_pos/data/repository/category_repo.dart';
-import 'package:six_pos/view/base/custom_snackbar.dart';
+import 'package:cimapos/controller/auth_controller.dart';
+import 'package:cimapos/data/api/api_checker.dart';
+import 'package:cimapos/data/model/response/categoriesProductModel.dart';
+import 'package:cimapos/data/model/response/category_model.dart';
+import 'package:cimapos/data/model/response/product_model.dart';
+import 'package:cimapos/data/model/response/sub_category_model.dart';
+import 'package:cimapos/data/repository/category_repo.dart';
+import 'package:cimapos/view/base/custom_snackbar.dart';
 import 'package:http/http.dart' as http;
 
 class CategoryController extends GetxController implements GetxService{

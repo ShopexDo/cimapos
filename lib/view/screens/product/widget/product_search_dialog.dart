@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/category_controller.dart';
-import 'package:six_pos/controller/theme_controller.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/view/screens/product/widget/searched_product_item_widget.dart';
+import 'package:cimapos/controller/category_controller.dart';
+import 'package:cimapos/controller/theme_controller.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/view/screens/product/widget/searched_product_item_widget.dart';
 class ProductSearchDialog extends StatelessWidget {
   const ProductSearchDialog({Key key}) : super(key: key);
 

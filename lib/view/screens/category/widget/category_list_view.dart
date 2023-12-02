@@ -1,9 +1,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/category_controller.dart';
-import 'package:six_pos/data/model/response/category_model.dart';
-import 'package:six_pos/util/dimensions.dart';
+import 'package:cimapos/controller/category_controller.dart';
+import 'package:cimapos/data/model/response/category_model.dart';
+import 'package:cimapos/util/dimensions.dart';
 
 import 'category_card_widget.dart';
 class CategoryListView extends StatelessWidget {

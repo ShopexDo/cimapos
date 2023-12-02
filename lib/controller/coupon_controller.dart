@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:six_pos/data/api/api_checker.dart';
-import 'package:six_pos/data/model/response/coupon_model.dart';
-import 'package:six_pos/data/repository/coupon_repo.dart';
-import 'package:six_pos/data/model/response/response_model.dart';
-import 'package:six_pos/view/base/custom_snackbar.dart';
+import 'package:cimapos/data/api/api_checker.dart';
+import 'package:cimapos/data/model/response/coupon_model.dart';
+import 'package:cimapos/data/repository/coupon_repo.dart';
+import 'package:cimapos/data/model/response/response_model.dart';
+import 'package:cimapos/view/base/custom_snackbar.dart';
 
 class CouponController extends GetxController implements GetxService{
   final CouponRepo couponRepo;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/styles.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/styles.dart';
 
 class InvoiceElementView extends StatelessWidget {
   final bool isBold;

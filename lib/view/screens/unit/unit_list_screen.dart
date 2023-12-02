@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/unit_controller.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/view/base/custom_app_bar.dart';
-import 'package:six_pos/view/base/custom_drawer.dart';
-import 'package:six_pos/view/base/custom_header.dart';
-import 'package:six_pos/view/screens/unit/widget/add_new_unit_screen.dart';
-import 'package:six_pos/view/screens/unit/widget/unit_list_view.dart';
+import 'package:cimapos/controller/unit_controller.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/view/base/custom_app_bar.dart';
+import 'package:cimapos/view/base/custom_drawer.dart';
+import 'package:cimapos/view/base/custom_header.dart';
+import 'package:cimapos/view/screens/unit/widget/add_new_unit_screen.dart';
+import 'package:cimapos/view/screens/unit/widget/unit_list_view.dart';
 class UnitListViewScreen extends StatefulWidget {
   const UnitListViewScreen({Key key}) : super(key: key);
 

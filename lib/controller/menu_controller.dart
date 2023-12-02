@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/view/screens/home/home_screens.dart';
-import 'package:six_pos/view/screens/pos/pos_screen.dart';
-import 'package:six_pos/view/screens/product/limited_product_screen.dart';
-import 'package:six_pos/view/screens/product/product_list_with_category.dart';
+import 'package:cimapos/view/screens/home/home_screens.dart';
+import 'package:cimapos/view/screens/pos/pos_screen.dart';
+import 'package:cimapos/view/screens/product/limited_product_screen.dart';
+import 'package:cimapos/view/screens/product/product_list_with_category.dart';
 
 class BottomMenuController extends GetxController implements GetxService{
   int _currentTab = 0;

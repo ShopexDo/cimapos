@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:six_pos/controller/account_controller.dart';
-import 'package:six_pos/controller/cart_controller.dart';
-import 'package:six_pos/data/api/api_checker.dart';
-import 'package:six_pos/data/model/response/account_model.dart';
-import 'package:six_pos/data/model/response/transaction_model.dart';
-import 'package:six_pos/data/model/response/transaction_type_model.dart';
-import 'package:six_pos/data/repository/transaction_repo.dart';
-import 'package:six_pos/view/base/custom_snackbar.dart';
+import 'package:cimapos/controller/account_controller.dart';
+import 'package:cimapos/controller/cart_controller.dart';
+import 'package:cimapos/data/api/api_checker.dart';
+import 'package:cimapos/data/model/response/account_model.dart';
+import 'package:cimapos/data/model/response/transaction_model.dart';
+import 'package:cimapos/data/model/response/transaction_type_model.dart';
+import 'package:cimapos/data/repository/transaction_repo.dart';
+import 'package:cimapos/view/base/custom_snackbar.dart';
 
 class TransactionController extends GetxController implements GetxService{
   final TransactionRepo transactionRepo;

@@ -2,19 +2,19 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/order_controller.dart';
-import 'package:six_pos/controller/splash_controller.dart';
-import 'package:six_pos/helper/date_converter.dart';
-import 'package:six_pos/helper/price_converter.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/base/custom_app_bar.dart';
-import 'package:six_pos/view/base/custom_divider.dart';
-import 'package:six_pos/view/base/custom_drawer.dart';
-import 'package:six_pos/view/base/custom_header.dart';
-import 'package:six_pos/view/screens/pos_printer/invoice_print.dart';
-import 'package:six_pos/view/screens/pos_printer/pdf_generator.dart';
+import 'package:cimapos/controller/order_controller.dart';
+import 'package:cimapos/controller/splash_controller.dart';
+import 'package:cimapos/helper/date_converter.dart';
+import 'package:cimapos/helper/price_converter.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/base/custom_app_bar.dart';
+import 'package:cimapos/view/base/custom_divider.dart';
+import 'package:cimapos/view/base/custom_drawer.dart';
+import 'package:cimapos/view/base/custom_header.dart';
+import 'package:cimapos/view/screens/pos_printer/invoice_print.dart';
+import 'package:cimapos/view/screens/pos_printer/pdf_generator.dart';
 import 'widget/invoice_element_view.dart';
 
 class InVoiceScreen extends StatefulWidget {

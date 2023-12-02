@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/category_controller.dart';
-import 'package:six_pos/data/model/response/sub_category_model.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/view/screens/category/widget/sub_category_card_widget.dart';
+import 'package:cimapos/controller/category_controller.dart';
+import 'package:cimapos/data/model/response/sub_category_model.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/view/screens/category/widget/sub_category_card_widget.dart';
 class SubCategoryListView extends StatelessWidget {
   final ScrollController scrollController;
   const SubCategoryListView({Key key, this.scrollController}) : super(key: key);

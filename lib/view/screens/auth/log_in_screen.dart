@@ -3,21 +3,21 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/auth_controller.dart';
-import 'package:six_pos/helper/email_checker.dart';
-import 'package:six_pos/helper/gradient_color_helper.dart';
-import 'package:six_pos/util/app_constants.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/base/animated_custom_dialog.dart';
-import 'package:six_pos/view/base/custom_button.dart';
-import 'package:six_pos/view/base/custom_field_with_title.dart';
-import 'package:six_pos/view/base/custom_snackbar.dart';
-import 'package:six_pos/view/base/custom_text_field.dart';
-import 'package:six_pos/view/base/logout_dialog.dart';
-import 'package:six_pos/view/screens/dashboard/nav_bar_screen.dart';
-import 'package:six_pos/view/screens/store/api_selection.dart';
+import 'package:cimapos/controller/auth_controller.dart';
+import 'package:cimapos/helper/email_checker.dart';
+import 'package:cimapos/helper/gradient_color_helper.dart';
+import 'package:cimapos/util/app_constants.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/base/animated_custom_dialog.dart';
+import 'package:cimapos/view/base/custom_button.dart';
+import 'package:cimapos/view/base/custom_field_with_title.dart';
+import 'package:cimapos/view/base/custom_snackbar.dart';
+import 'package:cimapos/view/base/custom_text_field.dart';
+import 'package:cimapos/view/base/logout_dialog.dart';
+import 'package:cimapos/view/screens/dashboard/nav_bar_screen.dart';
+import 'package:cimapos/view/screens/store/api_selection.dart';
 
 class LogInScreen extends StatefulWidget {
   @override

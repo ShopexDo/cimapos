@@ -1,13 +1,13 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/view/base/custom_app_bar.dart';
-import 'package:six_pos/view/base/custom_category_button.dart';
-import 'package:six_pos/view/base/custom_drawer.dart';
-import 'package:six_pos/view/screens/coupon/add_coupon_screen.dart';
-import 'package:six_pos/view/screens/coupon/coupon_list_screen.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/view/base/custom_app_bar.dart';
+import 'package:cimapos/view/base/custom_category_button.dart';
+import 'package:cimapos/view/base/custom_drawer.dart';
+import 'package:cimapos/view/screens/coupon/add_coupon_screen.dart';
+import 'package:cimapos/view/screens/coupon/coupon_list_screen.dart';
 
 class CouponScreen extends StatelessWidget {
   const CouponScreen({Key key}) : super(key: key);

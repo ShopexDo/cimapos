@@ -1,5 +1,5 @@
-import 'package:six_pos/data/model/response/language_model.dart';
-import 'package:six_pos/util/images.dart';
+import 'package:cimapos/data/model/response/language_model.dart';
+import 'package:cimapos/util/images.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:async';
 

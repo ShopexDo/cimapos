@@ -1,4 +1,4 @@
-package com.u6amtech.six_pos
+package com.naranhosting.cimapos
 
 import io.flutter.embedding.android.FlutterActivity
 

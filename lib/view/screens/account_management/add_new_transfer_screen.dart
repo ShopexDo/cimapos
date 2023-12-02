@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:six_pos/controller/transaction_controller.dart';
-import 'package:six_pos/data/model/response/transaction_model.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/base/custom_app_bar.dart';
-import 'package:six_pos/view/base/custom_button.dart';
-import 'package:six_pos/view/base/custom_drawer.dart';
-import 'package:six_pos/view/base/custom_field_with_title.dart';
-import 'package:six_pos/view/base/custom_header.dart';
-import 'package:six_pos/view/base/custom_snackbar.dart';
-import 'package:six_pos/view/base/custom_text_field.dart';
+import 'package:cimapos/controller/transaction_controller.dart';
+import 'package:cimapos/data/model/response/transaction_model.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/base/custom_app_bar.dart';
+import 'package:cimapos/view/base/custom_button.dart';
+import 'package:cimapos/view/base/custom_drawer.dart';
+import 'package:cimapos/view/base/custom_field_with_title.dart';
+import 'package:cimapos/view/base/custom_header.dart';
+import 'package:cimapos/view/base/custom_snackbar.dart';
+import 'package:cimapos/view/base/custom_text_field.dart';
 
 
 class AddNewTransferScreen extends StatefulWidget {

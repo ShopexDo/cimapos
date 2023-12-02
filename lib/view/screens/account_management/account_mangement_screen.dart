@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/view/base/custom_app_bar.dart';
-import 'package:six_pos/view/base/custom_category_button.dart';
-import 'package:six_pos/view/base/custom_drawer.dart';
-import 'package:six_pos/view/screens/account_management/account_list_screen.dart';
-import 'package:six_pos/view/screens/account_management/add_account_screen.dart';
-import 'package:six_pos/view/screens/account_management/add_new_expense_screen.dart';
-import 'package:six_pos/view/screens/account_management/add_new_transfer_screen.dart';
-import 'package:six_pos/view/screens/account_management/transaction_list_screen.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/view/base/custom_app_bar.dart';
+import 'package:cimapos/view/base/custom_category_button.dart';
+import 'package:cimapos/view/base/custom_drawer.dart';
+import 'package:cimapos/view/screens/account_management/account_list_screen.dart';
+import 'package:cimapos/view/screens/account_management/add_account_screen.dart';
+import 'package:cimapos/view/screens/account_management/add_new_expense_screen.dart';
+import 'package:cimapos/view/screens/account_management/add_new_transfer_screen.dart';
+import 'package:cimapos/view/screens/account_management/transaction_list_screen.dart';
 
 class AccountManagementScreen extends StatelessWidget {
   const AccountManagementScreen({Key key}) : super(key: key);

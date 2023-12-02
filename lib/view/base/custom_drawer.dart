@@ -1,20 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/menu_controller.dart';
-import 'package:six_pos/controller/splash_controller.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/util/styles.dart';
-import 'package:six_pos/view/base/custom_category_button.dart';
-import 'package:six_pos/view/base/sign_out_confirmation_dialog.dart';
-import 'package:six_pos/view/screens/account_management/account_mangement_screen.dart';
-import 'package:six_pos/view/screens/dashboard/nav_bar_screen.dart';
-import 'package:six_pos/view/screens/langulage/change_language.dart';
-import 'package:six_pos/view/screens/product_setup_screen/product_setup_menu_screen.dart';
-import 'package:six_pos/view/screens/order/order_screen.dart';
-import 'package:six_pos/view/screens/quote/quote_screen.dart';
-import 'package:six_pos/view/screens/shop/shop_settings.dart';
-import 'package:six_pos/view/screens/user/user_screen.dart';
+import 'package:cimapos/controller/menu_controller.dart';
+import 'package:cimapos/controller/splash_controller.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/util/styles.dart';
+import 'package:cimapos/view/base/custom_category_button.dart';
+import 'package:cimapos/view/base/sign_out_confirmation_dialog.dart';
+import 'package:cimapos/view/screens/account_management/account_mangement_screen.dart';
+import 'package:cimapos/view/screens/dashboard/nav_bar_screen.dart';
+import 'package:cimapos/view/screens/langulage/change_language.dart';
+import 'package:cimapos/view/screens/product_setup_screen/product_setup_menu_screen.dart';
+import 'package:cimapos/view/screens/order/order_screen.dart';
+import 'package:cimapos/view/screens/quote/quote_screen.dart';
+import 'package:cimapos/view/screens/shop/shop_settings.dart';
+import 'package:cimapos/view/screens/user/user_screen.dart';
+import 'package:cimapos/view/screens/info/info_screen.dart';
 
 import 'animated_custom_dialog.dart';
 
@@ -125,6 +126,11 @@ class CustomDrawer extends StatelessWidget {
                 CustomCategoryButton(
                   icon: Images.language_logo,
                   buttonText: 'change_language'.tr, onTap: ()=> Get.to(()=> ChooseLanguageScreen()),
+                ),
+
+                CustomCategoryButton(
+                  icon: Images.info,
+                  buttonText: 'info'.tr, onTap: ()=> Get.to(()=> InfoScreen()),
                 ),
 
                 CustomCategoryButton(

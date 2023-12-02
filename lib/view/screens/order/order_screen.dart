@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/customer_controller.dart';
-import 'package:six_pos/controller/order_controller.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/view/base/custom_app_bar.dart';
-import 'package:six_pos/view/base/custom_drawer.dart';
-import 'package:six_pos/view/base/custom_header.dart';
-import 'package:six_pos/view/screens/order/widget/order_list_view.dart';
-import 'package:six_pos/view/screens/user/widget/customer_wise_order_list.dart';
+import 'package:cimapos/controller/customer_controller.dart';
+import 'package:cimapos/controller/order_controller.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/view/base/custom_app_bar.dart';
+import 'package:cimapos/view/base/custom_drawer.dart';
+import 'package:cimapos/view/base/custom_header.dart';
+import 'package:cimapos/view/screens/order/widget/order_list_view.dart';
+import 'package:cimapos/view/screens/user/widget/customer_wise_order_list.dart';
 class OrderScreen extends StatefulWidget {
   final bool fromNavBar;
   final bool isCustomer;

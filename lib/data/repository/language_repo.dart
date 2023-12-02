@@ -1,5 +1,5 @@
-import 'package:six_pos/data/model/response/language_model.dart';
-import 'package:six_pos/util/app_constants.dart';
+import 'package:cimapos/data/model/response/language_model.dart';
+import 'package:cimapos/util/app_constants.dart';
 import 'package:flutter/material.dart';
 
 class LanguageRepo {

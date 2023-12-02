@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:six_pos/controller/splash_controller.dart';
-import 'package:six_pos/helper/price_converter.dart';
-import 'package:six_pos/util/dimensions.dart';
-import 'package:six_pos/util/images.dart';
-import 'package:six_pos/util/styles.dart';
+import 'package:cimapos/controller/splash_controller.dart';
+import 'package:cimapos/helper/price_converter.dart';
+import 'package:cimapos/util/dimensions.dart';
+import 'package:cimapos/util/images.dart';
+import 'package:cimapos/util/styles.dart';
 
 
 class RevenueStatistics extends StatelessWidget {
